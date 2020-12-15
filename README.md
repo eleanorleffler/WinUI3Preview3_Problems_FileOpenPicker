@@ -14,7 +14,7 @@ The FileOpenPicker in WinUI3 Preview3 Desktop sample solution break and close th
 
 **Steps to reproduce the bug**
 
-1. Clone the [WinUI3 Preview3 Problems FilePicker repository](https://github.com/eleanorleffler/WinUI3Preview3_Problems_FileOpenPicker). 
+1. Clone the repository. 
 2. Go to the FilePickerWinUIPreview3 folder.
 3. Open the FilePickerWinUIPreview3 solution in Visual Studio 2019 Preview.
 4. Build and run with Debug x64.
@@ -30,7 +30,11 @@ We expect the FileOpenPicker to allow the user to select multiple files as it do
 
 **Screenshots**
 
+![FileOpenPickerCurrentBehavior](https://github.com/eleanorleffler/WinUI3Preview3_Problems_FileOpenPicker/blob/main/Screenshots/CurrentBehavior.PNG)
+
 Screenshot#1 - Current Behavior (Error Message)
+
+![FileOpenPickerExpectedBehavior](https://github.com/eleanorleffler/WinUI3Preview3_Problems_FileOpenPicker/blob/main/Screenshots/ExpectedBehavior.PNG)
 
 Screenshot#2 - Expected Behavior (File paths of selected files)
 
